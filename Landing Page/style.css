@@ -2,110 +2,72 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
 }
 
 body {
+  font-family: "Segoe UI", sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
   color: #333;
-}
-
-header {
-  background: #1e1e2f;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px 0;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav h1 {
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+  background-color: #fdfdfd;
 }
 
 .hero {
-  background: #0077cc;
+  background: linear-gradient(to right, #667eea, #764ba2);
   color: white;
+  padding: 60px 20px;
   text-align: center;
-  padding: 100px 20px;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
 }
 
-.hero button {
-  padding: 12px 30px;
-  font-size: 1rem;
-  background: #fff;
-  color: #0077cc;
-  border: none;
+.btn {
+  padding: 10px 20px;
+  background: white;
+  color: #764ba2;
+  text-decoration: none;
   border-radius: 5px;
-  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
 }
 
-.features {
-  background: #fff;
-  padding: 60px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+.btn:hover {
+  background: #eee;
 }
 
-.feature-box {
-  flex: 1 1 250px;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 30px;
-  border-radius: 8px;
-  text-align: center;
-  transition: transform 0.2s ease-in-out;
+.content {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
-.feature-box:hover {
-  transform: scale(1.05);
+.content h2 {
+  font-size: 2rem;
+  color: #764ba2;
+  margin-bottom: 15px;
 }
 
-.feature-box h3 {
+.content ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.content ul li {
   margin-bottom: 10px;
-  color: #0077cc;
+  list-style-type: disc;
 }
 
-footer {
-  background: #1e1e2f;
-  color: #ccc;
+.footer {
+  background-color: #eee;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
+  font-size: 0.9rem;
   margin-top: 40px;
 }
